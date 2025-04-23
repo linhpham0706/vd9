@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Thêm ảnh động</title>
+</head>
+<body>
+
+<div id="bo">
+  </div>
+
+<button onclick="addnode_img()">Thêm ảnh</button>
+
+<script>
+function addnode_img() {
+  var pt = document.createElement('img');
+  pt.src = 'https://www.vietnamonline.com/media/uploads/froala_editor/images/VNO-Sun%20World%20Ba%20Na%20Hills.jpg'; // Đảm bảo bạn có file ảnh 'img1.png' trong cùng thư mục
+  document.getElementById('bo').appendChild(pt);
+}
+</script>
+
+</body>
+</html>
